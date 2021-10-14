@@ -53,9 +53,9 @@ const App = () => {
             </button>
           </div>
         </div>
-        <div className="row justify-content-center d-flex flex-wrap">
+        <div className="row d-flex justify-content-center">
           {films.map((film) => (
-            <div className="col-md-5" key={`film-card-${film.id}`}>
+            <div className="col-md-5 d-flex align-content-space-between" key={`film-card-${film.id}`}>
               <div className="card shadow my-4">
                 <div className="card-body p-5">
                   <h4 className="card-title">{film.title}</h4>

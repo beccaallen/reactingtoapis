@@ -73,3 +73,7 @@ p.slider {
 .slider {
   display: none;
 }
+
+*, ::after, ::before {
+  box-sizing:unset;
+}
